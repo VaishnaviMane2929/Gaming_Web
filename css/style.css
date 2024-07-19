@@ -394,7 +394,7 @@ border: var(--border);
     gap: 1rem;
     cursor: pointer;
     color: var(--white);
-    font-size: 2rem;
+    font-size: 1rem;
 }
 .faq .box-container .box .title .fa-minus {
     transform: rotate(180deg);
