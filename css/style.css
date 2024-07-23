@@ -442,6 +442,10 @@ border: var(--border);
     box-sizing: var(--box-shadow);
 
 }
+.contact .box-container .BOX:nth-child(1){
+    text-align: center;
+
+}
 .contact .box-container .BOX:nth-child(2){
     text-align: center;
 
@@ -453,13 +457,19 @@ border: var(--border);
     height: 12rem;
     width: 13rem;
     margin-bottom: 12rem ;
+    border-radius: 50%;
 }
+
 .contact .box-container .BOX h3 {
     margin: 1.5rem 0;
     font-size: 2.5rem;
     color: var(--white);
 }
-
+.contact .box-container .BOX a {
+    text-transform: none;
+    color: var(--light-white);
+    font-size: 1.6rem;
+}
 
 
 
