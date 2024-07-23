@@ -427,39 +427,38 @@ border: var(--border);
     justify-content: center;
 
 }
-.contact .box-container .form {
-    background-color: cover !important;
-    background-position: center !important;
-    padding: 6rem 4rem;
-    box-shadow: var(--box-shadow);
-}
-.contact .box-container .form:nth-child(2) {
-    text-align: center;
-}
-.contact .box-container .form:nth-child(3) {
-    text-align: right;
-}
-.contact .box-container .box img {
-    height: 12rem;
-    width: 12rem;
-    margin-bottom: 12rem;
+.contact .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
 
 }
-.contact .box-container .box h3 {
+.contact .box-container .BOX {
+    background-size: cover !important;
+    background-position: center !important;
+    padding: 6rem  4rem;
+    box-sizing: var(--box-shadow);
+
+}
+.contact .box-container .BOX:nth-child(2){
+    text-align: center;
+
+}
+.contact .box-container .BOX:nth-child(3){
+    text-align: center;
+}
+.contact .box-container .BOX img {
+    height: 12rem;
+    width: 13rem;
+    margin-bottom: 12rem ;
+}
+.contact .box-container .BOX h3 {
     margin: 1.5rem 0;
     font-size: 2.5rem;
     color: var(--white);
 }
-.contact .box-container .box a {
-    text-transform: none;
-    color: var(--light-white);
-    font-size: 1.6rem;
-}
-.contact .box-container .box a:hover {
-    text-decoration: underline;
-    color: var(--main-color);
-}
-
 
 
 
