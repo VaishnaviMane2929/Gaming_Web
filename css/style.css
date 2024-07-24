@@ -477,42 +477,61 @@ border: var(--border);
     color: var(--main-color);
     
 }
- .contact .form {
+.contact .from {
     margin-top: 2rem;
     text-align: center;
-} 
-    
-.contact .form .flex {
+}
+.contact .from  .flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
+    
 }
-
-.contact .form .flex .input {
+.contact .from  .flex .input {
     flex: 1 1 40rem;
 }
-
-.contact .form  .input,
-.contact .form textarea {
+.contact .from  .input,
+.contact .from textarea {
     background: none;
-    color:var(--white) ;
+    color: var(--white);
     border: var(--border);
     border-radius: .5rem;
     padding: 1.6rem;
     font-size: 2rem;
     text-transform: none;
 }
-.contact .form  .input:focus,
-.contact .form textarea:focus {
-    border-color: var(--main-color);
+.contact .from  .input,
+.contact .from textarea:focus {
+    border-color:var(--main-color);
     transition: .2s linear;
 }
- 
+.contact .from  .input::placeholder,
+.contact .from textarea::placeholder {
+    text-transform: capitalize;
 
-
-body {
-    height: 1000rem;
 }
+.contact .from textarea {
+    height: 20rem;
+    width: 100%;
+    margin-top: 1.5rem;
+    margin-bottom: .5rem;
+    resize: none;
+    text-align: center;
+}
+.contact .from .btn:hover {
+    background-color:var(--main-color) ;
+}
+/* .contact .from .btn {
+    margin-left: 50rem;
+} */
+
+
+
+
+
+
+
+
 
 
 
