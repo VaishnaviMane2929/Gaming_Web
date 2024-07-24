@@ -521,17 +521,80 @@ border: var(--border);
 .contact .from .btn:hover {
     background-color:var(--main-color) ;
 }
+.footer {
+    background: url('https://png.pngtree.com/background/20210709/original/pngtree-scientific-background-picture-image_751823.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 3rem;
+    align-items: flex-start;
+    justify-content: center;
 
+}
+.footer .box-container .box:last-child {
+    text-align: right;
+}
+.footer .box-container.box:nth-child(2) {
+    text-align: center;
+}
+.footer .box-container .box h3{
+    font-size: 2rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+    
+}
+.footer .box-container .box .link{
+    padding: 1rem 0;
+    font-size: 1.6rem;
+    color: var(--light-white);
+    display: block;
+}
+.footer .box-container .box .link:hover{
+    text-decoration: underline;
+    color: var(--white);
+    text-underline-offset: .5rem;
 
+}
+.footer .box-container .box p {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: var(--light-white);
+    padding: 1rem 0;
 
-
-
-
-
-
-
-
-
+}
+.footer .box-container .box .share-links {
+    margin-top: 1rem;
+    text-align: center;
+}
+.footer .box-container .box .share-links a {
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.4rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: var(--white);
+    color: var(--black);
+    margin: 0 .5rem;
+}
+.footer .box-container .box .share-links a:hover {
+    background-color: var(--main-color);
+    color: var(--white);
+}
+.footer .credit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    font-size: 2rem;
+    border-top: var(--border);
+    color: var(--light-white);
+}
+.footer .credit span {
+    color: var(--main-color);
+}
 
 
 /* media queries  */
@@ -564,6 +627,10 @@ border: var(--border);
     }
     .home .flex .content h3 {
         font-size: 3.5rem;
+    }
+    .footer .credit {
+        justify-content: center;
+        text-align: center;
     }
     .header .flex .navbar.active {
         left: 0;
