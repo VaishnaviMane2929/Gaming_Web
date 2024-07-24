@@ -513,7 +513,7 @@ border: var(--border);
 .contact .from textarea {
     height: 20rem;
     width: 100%;
-    margin-top: 1.5rem;
+    margin-top: 1.4rem;
     margin-bottom: .5rem;
     resize: none;
     text-align: center;
